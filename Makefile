@@ -1,11 +1,11 @@
 .SUFFIXES:
 .SUFFIXES: .c .o
-CLNT = llist
-SRVR = llist_svc
+CLNT = summer
+SRVR = sum_svr
 CFLAGS = -g -Wall
 
-SRVR_OBJ = llist_svc_proc.o llist_xdr.o llist_svc.o
-CLNT_OBJ = llist.o llist_xdr.o llist_clnt.o
+SRVR_OBJ = sum_svr_proc.o sum_xdr.o sum_svr.o
+CLNT_OBJ = summer.o sum_xdr.o summer_clnt.o
 
 .c.o:; gcc -c -o $@ $(CFLAGS) $<
 
