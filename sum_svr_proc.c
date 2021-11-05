@@ -1,5 +1,12 @@
 /*
- * RPC summer server file
+ * RPC Summer
+ *
+ * This is the server file for an RPC call
+ * that will sum two values provided in the args.
+ *
+ * 4 Nov 2021
+ *
+ * Ben Moorman
  */
 
 #include <stdlib.h>
